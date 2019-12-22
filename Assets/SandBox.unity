@@ -2143,6 +2143,16 @@ Prefab:
       propertyPath: runSpeed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114479323527112872, guid: f427b5d61726049b9b17618378abf4d9,
+        type: 2}
+      propertyPath: jumpSpeed
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 50527219487999496, guid: f427b5d61726049b9b17618378abf4d9,
+        type: 2}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f427b5d61726049b9b17618378abf4d9, type: 2}
   m_IsPrefabParent: 0
