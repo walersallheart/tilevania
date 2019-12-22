@@ -62,7 +62,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &70459262716219960
 CapsuleCollider2D:
@@ -107,7 +107,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29966b0509321492db73176e61b7abd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 10
+  runSpeed: 5
+  jumpSpeed: 28
+  climbSpeed: 5
 --- !u!212 &212936213028986620
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -140,7 +142,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -806839065
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300014, guid: 68b525c103cad417b883856a485a1ae0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
