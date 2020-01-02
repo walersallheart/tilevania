@@ -79,7 +79,7 @@ public class Player : MonoBehaviour {
 	}
 
 	private void Die(){
-		if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy"))) {
+		if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy","Hazards"))) {
 			myAnimator.SetTrigger("Dying");
 			GetComponent<Rigidbody2D>().velocity = deathKick;
 			isAlive = false;
